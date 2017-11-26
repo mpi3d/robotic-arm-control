@@ -1,4 +1,4 @@
-import Adafruit_PCA9685
+ import Adafruit_PCA9685
 from sense_hat import SenseHat
 import time
 from sense_hat import *
@@ -204,7 +204,7 @@ def epaule_moin(event):
    fichier.write("\nservo.set_pwm(2,0," + epaule1A + ")")
    fichier.close()
 
-pince = 325
+pince = 360
 
 def pince_plus(event):
    global pince
@@ -361,7 +361,7 @@ print ('veuiller patienter 1 seconde...')
 servo.set_pwm(4,0,375)
 time.sleep(1)
 print ('veuiller patienter 0 seconde...')
-servo.set_pwm(5,0,340)
+servo.set_pwm(5,0,360)
         
 hat.clear()                        
 hat.set_pixels(blanc_menu)
@@ -390,7 +390,7 @@ fichier.write("\nservo.set_pwm(3,0,375)")
 fichier.write("\ntime.sleep(0.1)")
 fichier.write("\nservo.set_pwm(4,0,375)")
 fichier.write("\ntime.sleep(0.1)")
-fichier.write("\nservo.set_pwm(5,0,340)")
+fichier.write("\nservo.set_pwm(5,0,360)")
 fichier.write("\n")
 fichier.close()
 print("fichier créé")
@@ -443,7 +443,7 @@ while True :
                 fichier.write("\ntime.sleep(0.1)")
                 fichier.write("\nservo.set_pwm(4,0,375)")
                 fichier.write("\ntime.sleep(0.1)")
-                fichier.write("\nservo.set_pwm(5,0,340)")
+                fichier.write("\nservo.set_pwm(5,0,360)")
                 fichier.write("\n")
                 fichier.close()
                 print("fichier créé")
@@ -469,7 +469,7 @@ while True :
                 epaule1 = 375
                 poignet = 375
                 coude = 375
-                pince = 340
+                pince = 360
                 baseA = str(base)
                 epauleA = str(epaule)
                 epaule1A = str(epaule1)
@@ -557,7 +557,6 @@ while True :
                         fichier = open(nom_du_fichier_py , "a")
                         fichier.write("\ntime.sleep(temps)")
                         fichier.write("\nservo.set_pwm(5,0," + pinceA + ")")
-                        print("servo.set_pwm(5,0," + pinceA + ")")
                         fichier.close()
         elif act == "épaule":
                 print("épaule:")
@@ -583,6 +582,3 @@ while True :
                         fichier.close()
         else:
                 print("la commande n'existe pas")
-
-
-      
