@@ -1,4 +1,4 @@
- import Adafruit_PCA9685
+import Adafruit_PCA9685
 from sense_hat import SenseHat
 import time
 from sense_hat import *
