@@ -1,6 +1,6 @@
 # Comande_bras_robot
 
-Programe pour comander le bras robot et enregistrer les programes interface grafique sur le sense hat
+Programe pour comander le bras robot et enregistrer les programes interface grafique sur le sense hat.
 
 ## Programe:
 
