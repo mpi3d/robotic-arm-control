@@ -557,7 +557,7 @@ while True :
                 fichier.write("\n##################################################")
                 fichier.write("\n#                     RESET                      #")
                 fichier.write("\n##################################################")
-                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\ntime.sleep(0.5)")
                 fichier.write("\nservo.set_pwm(0,0," + baseA + ")")
                 fichier.write("\ntime.sleep(0.1)")
                 fichier.write("\nservo.set_pwm(1,0," + epauleA + ")")
