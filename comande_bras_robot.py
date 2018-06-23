@@ -128,13 +128,13 @@ def base_plus(event):
                 #print("la base est au maximum")
         else:
                 servo.set_pwm(0,0,base)
-                ba.append(base)
-   #baseA = str(base)
-   #fichier = open(nom_du_fichier_py , "a")
-   #fichier.write("\ntime.sleep(temps)")
-   #fichier.write("\nservo.set_pwm(0,0," + baseA + ")")
-   #fichier.close()
-
+                #ba.append(base)
+                baseA = str(base)
+                fichier = open(nom_du_fichier_py , "a")
+                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\nservo.set_pwm(0,0," + baseA + ")")
+                fichier.close()
+        
 def base_moin(event):
    global base
    global ba
@@ -147,12 +147,12 @@ def base_moin(event):
                 #print("la base est au minimum")
         else:
                 servo.set_pwm(0,0,base)
-                ba.append(base)
-   #baseA = str(base)
-   #fichier = open(nom_du_fichier_py , "a")
-   #fichier.write("\ntime.sleep(temps)")
-   #fichier.write("\nservo.set_pwm(0,0," + baseA + ")")
-   #fichier.close()
+                #ba.append(base)
+                baseA = str(base)
+                fichier = open(nom_du_fichier_py , "a")
+                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\nservo.set_pwm(0,0," + baseA + ")")
+                fichier.close()
 
 
 
@@ -174,17 +174,17 @@ def epaule_plus(event):
                 #menu()
                 #print("l'epaule est au maximum")
         else:
-                ep.append(epaule)
-                ep1.append(epaule1)
+                #ep.append(epaule)
+                #ep1.append(epaule1)
                 servo.set_pwm(1,0,epaule)
                 servo.set_pwm(2,0,epaule1)
-   #epauleA = str(epaule)
-   #epaule1A = str(epaule1)
-   #fichier = open(nom_du_fichier_py , "a")
-   #fichier.write("\ntime.sleep(temps)")
-   #fichier.write("\nservo.set_pwm(1,0," + epauleA + ")")
-   #fichier.write("\nservo.set_pwm(2,0," + epaule1A + ")")
-   #fichier.close()
+                epauleA = str(epaule)
+                epaule1A = str(epaule1)
+                fichier = open(nom_du_fichier_py , "a")
+                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\nservo.set_pwm(1,0," + epauleA + ")")
+                fichier.write("\nservo.set_pwm(2,0," + epaule1A + ")")
+                fichier.close()
 
 def epaule_moin(event):
    global epaule,epaule1,ep,ep1
@@ -198,17 +198,17 @@ def epaule_moin(event):
                 #menu()
                 #print("l'epaule est au minimum")
         else:
-                ep.append(epaule)
-                ep1.append(epaule1)
+                #ep.append(epaule)
+                #ep1.append(epaule1)
                 servo.set_pwm(1,0,epaule)
                 servo.set_pwm(2,0,epaule1)
-   #epauleA = str(epaule)
-   #epaule1A = str(epaule1)
-   #fichier = open(nom_du_fichier_py , "a")
-   #fichier.write("\ntime.sleep(temps)")
-   #fichier.write("\nservo.set_pwm(1,0," + epauleA + ")")
-   #fichier.write("\nservo.set_pwm(2,0," + epaule1A + ")")
-   #fichier.close()
+                epauleA = str(epaule)
+                epaule1A = str(epaule1)
+                fichier = open(nom_du_fichier_py , "a")
+                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\nservo.set_pwm(1,0," + epauleA + ")")
+                fichier.write("\nservo.set_pwm(2,0," + epaule1A + ")")
+                fichier.close()
 
 pince = 360
 pi = []
@@ -224,7 +224,7 @@ def pince_plus(event):
                 #print('les pinces sont au maximum')
         else:
                 servo.set_pwm(5,0,pince)
-                pi.append(pince)
+                #pi.append(pince)
    #pinceA = str(pince)
    #fichier = open(nom_du_fichier_py , "a")
    #fichier.write("\ntime.sleep(temps)")
@@ -243,12 +243,12 @@ def pince_moin(event):
                 #print('les pinces sont au minimum')
         else:
                 servo.set_pwm(5,0,pince)
-                pi.append(pince)
-   #pinceA = str(pince)
-   #fichier = open(nom_du_fichier_py , "a")
-   #fichier.write("\ntime.sleep(temps)")
-   #fichier.write("\nservo.set_pwm(5,0," + pinceA + ")")
-   #fichier.close()
+                #pi.append(pince)
+                pinceA = str(pince)
+                fichier = open(nom_du_fichier_py , "a")
+                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\nservo.set_pwm(5,0," + pinceA + ")")
+                fichier.close()
 
 coude = 600
 co = []
@@ -257,19 +257,19 @@ def coude_plus(event):
    global co
    if event.action in ('pressed','held'):
         coude = coude + vitesse
-        if coude>600:
+        if coude>700:
                 coude=coude-vitesse
                 #hat.show_message("MAX", 0.08, b)
                 #menu()
                 #print('le coude est au maximum')
         else:
                 servo.set_pwm(4,0,coude)
-                co.append(coude)
-   #coudeA = str(coude)
-   #fichier = open(nom_du_fichier_py , "a")
-   #fichier.write("\ntime.sleep(temps)")
-   #fichier.write("\nservo.set_pwm(4,0," + coudeA + ")")
-   #fichier.close()
+                #co.append(coude)
+                coudeA = str(coude)
+                fichier = open(nom_du_fichier_py , "a")
+                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\nservo.set_pwm(4,0," + coudeA + ")")
+                fichier.close()
 
 def coude_moin(event):
    global coude
@@ -283,12 +283,12 @@ def coude_moin(event):
                 #print('le coude est au minimum')
         else:
                 servo.set_pwm(4,0,coude)
-                co.append(coude)
-   #coudeA = str(coude)
-   #fichier = open(nom_du_fichier_py , "a")
-   #fichier.write("\ntime.sleep(temps)")
-   #fichier.write("\nservo.set_pwm(4,0," + coudeA + ")")
-   #fichier.close()
+                #co.append(coude)
+                coudeA = str(coude)
+                fichier = open(nom_du_fichier_py , "a")
+                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\nservo.set_pwm(4,0," + coudeA + ")")
+                fichier.close()
 
 poignet = 575
 po = []
@@ -303,13 +303,13 @@ def poignet_plus(event):
                 #menu()
                 #print('le poignet est au maximum')
         else:
-                po.append(poignet)
+                #po.append(poignet)
                 servo.set_pwm(3,0,poignet)
-   #poignetA = str(poignet)
-   #fichier = open(nom_du_fichier_py , "a")
-   #fichier.write("\ntime.sleep(temps)")
-   #fichier.write("\nservo.set_pwm(3,0," + poignetA + ")")
-   #fichier.close()
+                poignetA = str(poignet)
+                fichier = open(nom_du_fichier_py , "a")
+                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\nservo.set_pwm(3,0," + poignetA + ")")
+                fichier.close()
 
 def poignet_moin(event):
    global poignet
@@ -322,14 +322,14 @@ def poignet_moin(event):
                 #menu()
                 #print('le poignet est au minimum')
         else:
-                po.append(poignet)
+                #po.append(poignet)
                 servo.set_pwm(3,0,poignet)
-   #poignetA = str(poignet)
-   #fichier = open(nom_du_fichier_py , "a")
-   #fichier.write("\ntime.sleep(temps)")
-   #fichier.write("\nservo.set_pwm(3,0," + poignetA + ")")
-   #fichier.close()
-
+                poignetA = str(poignet)
+                fichier = open(nom_du_fichier_py , "a")
+                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\nservo.set_pwm(3,0," + poignetA + ")")
+                fichier.close()
+        
 def deplacer_plus(event):
         global x
         if x == 0:
@@ -434,7 +434,7 @@ print('')
 print('commandes:')
 print('r pour reset')
 print('n pour créer un nouveau fichier')
-print('e pour enregistrer')
+#print('e pour enregistrer')
 print('base pour bouger la base')
 print("epaule pour bouger l'épaule")
 print('coude pour bouger le coude')
@@ -456,6 +456,12 @@ while True :
         print("commande:")
         act = input()
         if act == "n":
+                servo.set_pwm(0,0,0)
+                servo.set_pwm(1,0,0)
+                servo.set_pwm(2,0,0)
+                servo.set_pwm(3,0,0)
+                servo.set_pwm(4,0,0)
+                servo.set_pwm(5,0,0)
                 print("entrer le nom du ficher à créer")
                 nom_du_fichier = input()
                 nom_du_fichier_py = (nom_du_fichier + ".py")
@@ -517,12 +523,6 @@ while True :
                 coudeA = str(coude)
                 poignetA = str(poignet)
                 pinceA = str(pince)
-                servo.set_pwm(0,0,0)
-                servo.set_pwm(1,0,0)
-                servo.set_pwm(2,0,0)
-                servo.set_pwm(3,0,0)
-                servo.set_pwm(4,0,0)
-                servo.set_pwm(5,0,0)
                 print("fichier créé")
         elif act == "r":
                 print ('reset en cours')
@@ -571,7 +571,7 @@ while True :
                 fichier.write("\n##################################################")
                 fichier.write("\n#                     ARRET                      #")
                 fichier.write("\n##################################################")
-                fichier.write("\ntime.sleep(temps)")
+                fichier.write("\ntime.sleep(0.5)")
                 fichier.write("\nservo.set_pwm(0,0,0)")
                 fichier.write("\nservo.set_pwm(1,0,0)")
                 fichier.write("\nservo.set_pwm(2,0,0)")
@@ -676,7 +676,9 @@ while True :
                         fichier.write("\nservo.set_pwm(1,0," + epauleA + ")")
                         fichier.write("\nservo.set_pwm(2,0," + epaule1A + ")")
                         fichier.close()
-        elif act == "e":
+        else:
+                print("la commande n'existe pas")
+        """elif act == "e":
                 fichier = open(nom_du_fichier_py , "a")
                 fichier.write("\n##################################################")
                 fichier.write("\n#                     BASE                       #")
@@ -715,6 +717,4 @@ while True :
                         fichier.write("\ntime.sleep(temps)")
                         fichier.write("\nservo.set_pwm(5,0," + str(pi[0]) + ")")
                         del pi[0]
-                fichier.close()
-        else:
-                print("la commande n'existe pas")
+                fichier.close()"""
