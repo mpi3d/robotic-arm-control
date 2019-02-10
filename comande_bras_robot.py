@@ -435,6 +435,7 @@ print('commandes:')
 print('r pour reset')
 print('n pour créer un nouveau fichier')
 #print('e pour enregistrer')
+print('s pour stoper')
 print('base pour bouger la base')
 print("epaule pour bouger l'épaule")
 print('coude pour bouger le coude')
@@ -676,6 +677,14 @@ while True :
                         fichier.write("\nservo.set_pwm(1,0," + epauleA + ")")
                         fichier.write("\nservo.set_pwm(2,0," + epaule1A + ")")
                         fichier.close()
+        elif act == "s":
+                servo.set_pwm(0,0,0)
+                servo.set_pwm(1,0,0)
+                servo.set_pwm(2,0,0)
+                servo.set_pwm(3,0,0)
+                servo.set_pwm(4,0,0)
+                servo.set_pwm(5,0,0)
+                quit(0)
         else:
                 print("la commande n'existe pas")
         """elif act == "e":
