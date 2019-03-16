@@ -1,7 +1,7 @@
 # Comande bras robot
 
-Programme pour commander le bras robot et enregistrer les programme interface graphique sur le sense hat.
+Programme pour commander le bras robot et enregistrer les programme.
 
 ## Programme :
 
-+ [Programme](https://github.com/matthieu-59/comande_bras_robot/blob/master/comande_bras_robot.py)
++ [Programme](https://github.com/MPi3D/Comande_Bras_Robot/blob/master/Robotic_Arm.py)
