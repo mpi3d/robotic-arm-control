@@ -1,4 +1,4 @@
-# Comande bras robot
+# Comande Bras Robot
 
 Programme pour commander le bras robot et enregistrer les programme.
 
