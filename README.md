@@ -1,6 +1,6 @@
 # Robotic Arm Control
 
-Program to control the robot arm and record the programs.
+Program to control the robot arm and record the programs
 
 ## Program :
 
