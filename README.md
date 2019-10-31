@@ -1,7 +1,7 @@
-# Comande Bras Robot
+# Robotic Arm Control
 
-Programme pour commander le bras robot et enregistrer les programme.
+Program to control the robot arm and record the programs.
 
-## Programme :
+## Program :
 
-+ [Programme](https://github.com/MPi3D/Comande_Bras_Robot/blob/master/Robotic_Arm.py)
++ [Program](https://github.com/MPi3D/Comande_Bras_Robot/blob/master/Robotic_Arm.py)
