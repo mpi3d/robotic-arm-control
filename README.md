@@ -8,6 +8,13 @@ Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm) and r
 
 + [Program](/Robotic_Arm.py)
 
+## Install
+
+```
+chmod +x install.sh
+sudo install.sh
+```
+
 ## Usage
 
 ```
