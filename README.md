@@ -2,6 +2,8 @@
 
 Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm) and record the programs
 
+[![Robotic Arm](/Robotic_Arm.jpg)](https://github.com/MPi3D/Robotic_Arm)
+
 ## Program
 
 + [Program](/Robotic_Arm.py)
