@@ -1,1 +1,1 @@
-sudo pip3.7 install adafruit-pca9685
+sudo pip install adafruit-pca9685
