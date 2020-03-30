@@ -2,7 +2,7 @@
 
 Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm).
 
-[![Robotic Arm](/Robotic_Arm.jpg)](https://github.com/MPi3D/Robotic_Arm)
+[![Robotic Arm](/robotic_arm.jpg)](https://github.com/MPi3D/Robotic_Arm)
 
 ## Install
 
@@ -15,7 +15,11 @@ sudo install.sh
 
 ## Program
 
-+ [Program](/Robotic_Arm.py)
++ [Program](/robotic_arm.py)
+
+## Exemple
+
++ [Exemple](/exemple.py)
 
 ## Usage
 
