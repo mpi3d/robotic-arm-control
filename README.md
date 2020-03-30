@@ -1,12 +1,8 @@
 # Robotic Arm Control
 
-Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm) and record the programs
+Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm).
 
 [![Robotic Arm](/Robotic_Arm.jpg)](https://github.com/MPi3D/Robotic_Arm)
-
-## Program
-
-+ [Program](/Robotic_Arm.py)
 
 ## Install
 
@@ -16,6 +12,10 @@ cd Robotic_Arm_Control
 chmod +x install.sh
 sudo install.sh
 ```
+
+## Program
+
++ [Program](/Robotic_Arm.py)
 
 ## Usage
 
