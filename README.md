@@ -6,7 +6,7 @@ Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm).
 
 ## Install
 
-```bash
+```sh
 git clone https://github.com/MPi3D/Robotic_Arm_Control.git
 cd Robotic_Arm_Control
 chmod +x install.sh
