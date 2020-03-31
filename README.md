@@ -37,6 +37,8 @@ PARMS = (
 
 ARM = Arm(PARMS) # Init the arm with the PARMS.
 
+# base can be replace by shoulder, elbow, wrist or wrench.
+
 ARM.base.set_position(90) # Set the base to 90 degrees.
 ARM.base.set_position(90, 5) # Set the base to 90 degrees in 5 seconds.
 
@@ -55,4 +57,8 @@ ARM.set_active(True) # Set the full arm activate.
 
 ARM.is_active() # Get if all articulations of the arm are active.
 ARM.get_position() # Get all articulations positions.
+
+help(Arm) # To get more informations about Arm class
+help(OneMotor) # To get more informations about OneMotor class
+help(TwoMotors) # To get more informations about TwoMotors class
 ```
