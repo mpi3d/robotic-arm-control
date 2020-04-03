@@ -1,6 +1,6 @@
 # Robotic Arm Control
 
-Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm).
+Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm)
 
 [![Robotic Arm](/robotic_arm.jpg)](https://github.com/MPi3D/Robotic_Arm)
 
