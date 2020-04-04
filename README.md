@@ -1,6 +1,6 @@
 # Robotic Arm Control
 
-Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm)
+Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm).
 
 [![Robotic Arm](/robotic_arm.jpg)](https://github.com/MPi3D/Robotic_Arm)
 
@@ -58,7 +58,7 @@ ARM.set_active(True) # Set the full arm activate.
 ARM.is_active() # Get if all articulations of the arm are active.
 ARM.get_position() # Get all articulations positions.
 
-help(Arm) # To get more informations about Arm class
-help(OneMotor) # To get more informations about OneMotor class
-help(TwoMotors) # To get more informations about TwoMotors class
+help(Arm) # To get more informations about Arm class.
+help(OneMotor) # To get more informations about OneMotor class.
+help(TwoMotors) # To get more informations about TwoMotors class.
 ```
