@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Exemple to control the Robotic Arm with robotic_arm module: https://github.com/MPi3D/Robotic_Arm.
+Exemple to control the Robotic Arm with robotic_arm module: https://github.com/mpi3d/robotic-arm-control.
 """
 
 from time import sleep
