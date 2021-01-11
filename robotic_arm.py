@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Module to control the Robotic Arm: https://github.com/MPi3D/Robotic_Arm.
+Module to control the Robotic Arm: https://github.com/mpi3d/robotic-arm.
 """
 
 from time import sleep, time
