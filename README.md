@@ -1,14 +1,14 @@
 # Robotic Arm Control
 
-Program to control the [Robotic Arm](https://github.com/MPi3D/Robotic_Arm).
+Program to control the [Robotic Arm](https://github.com/mpi3d/robotic-arm).
 
-[![Robotic Arm](/robotic_arm.jpg)](https://github.com/MPi3D/Robotic_Arm)
+[![Robotic Arm](/robotic_arm.jpg)](https://github.com/mpi3d/robotic-arm)
 
 ## Install
 
 ``` sh
-git clone https://github.com/MPi3D/Robotic_Arm_Control.git
-cd Robotic_Arm_Control
+git clone https://github.com/mpi3d/robotic-arm-control.git
+cd robotic-arm-control
 chmod +x install.sh
 sudo install.sh
 ```
